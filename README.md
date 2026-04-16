@@ -1,19 +1,19 @@
-🎬Dropout Prediction ML Pipeline - Summary TEST!!!!!!
+🎬Dropout Prediction ML Pipeline - Summary
 ---
-Customer segmentation from e-commerce data - being able to segment the customers data by clustering models, will help the business to provide better customer centric improvements to marketing. 
+Developed prediction on student dropout using supervised learning techniques. Early identification of potential dropouts enables timely interventions, reducing revenue loss, reputational impact, and student dissatisfaction. Model performance is evaluated over multiple stages, with incremental feature enrichment to assess prediction improvements.
 
 ✨ Technologies
 ---
-Python (google colab) - numpy, pandas, seaborn, matlplotlib, sklearn
+Python (google colab) - numpy, pandas, seaborn, matlplotlib, sklearn, XGBoost, Neural Networks (Keras / TensorFlow)
 
 🚀 Approach
 ---
-- The data was imported and exploratory data analysis was performed, including review of data quality, missing values, duplicates, and feature distributions. 
-- New features were created to convert transaction‑level data into customer‑level metrics to support segmentation.
-- Different clustering approaches (elbow method, silhouete scores, hierarchical clustering) was applied to identify suitable customer groupings.
-- Different methods were used to assess the optimal number of clusters, followed by clustering and visualisation (PCA and T-SNE) to support interpretation. 
+Initial steps included exploratory data analysis, feature engineering, and addressing data quality and imbalance. 
+Two supervised models were applied: XGBoost and Neural Networks, across three stages of data evolution. 
+Each stage involved comparing base models and tuned models, with recall and AUC prioritised (from classification matrix) due to imbalanced data. 
+Incremental feature additions were analysed to understand their impact on prediction performance and false negatives.
 
-Throughout the analysis, observations were reviewed alongside assumptions, subjectivity, and limitations in the methods applied.
+<img width="680" height="410" alt="image" src="https://github.com/user-attachments/assets/54d31c24-cf13-4556-8c8e-e2f4dece469a" />
 
 🚦 Running the Project
 ---
@@ -22,11 +22,11 @@ The notebook is structured sequentially and can be run end‑to‑end.
 
 🎞️ Preview of the output 
 --- 
-The outputs shows summaries and visualisations on how customers are grouped under different clustering approaches. These outputs are used to support interpretation and practical relevance.
+The model was compared across stages for accuracy, recall, AUC, confusion matrices, ROC curves, loss curves, and feature importance plots for XGBoost. 
+The tuned XGBoost model on Stage 3 data delivers the strongest overall performance, with the lowest number of missed dropout predictions.
 
 🔭 Why this project? 
 --- 
-This project was undertaken to gain hands‑on experience with data science and machine learning techniques, with a specific focus on understanding how models behave in practice, including assumptions, subjectivity, and limitations.
-The work supports a broader objective of strengthening practical understanding of ML and AI concepts that are increasingly relevant in technology risk, governance, and assurance contexts, where interpretability and appropriate use are key considerations.
+From a technology risk perspective, early risk detection and how we can intervene early can be seen. It highlights practical trade-offs and shows how prediction capability improves as data maturity increases. It also shows the different metrics that can be used for model performances. 
 
 :tada:
