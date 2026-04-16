@@ -1,4 +1,4 @@
-🎬Dropout Prediction ML Pipeline - Summary - TEST TEST TEST TEST TEST 
+🎬Dropout Prediction ML Pipeline - Summary TEST!!!!!!
 ---
 Customer segmentation from e-commerce data - being able to segment the customers data by clustering models, will help the business to provide better customer centric improvements to marketing. 
 
